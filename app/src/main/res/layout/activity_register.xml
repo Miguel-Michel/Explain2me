@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context=".RegisterActivity">
+    <ImageView
+        android:id="@+id/imgBackgroundR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:paddingTop="5dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/bglg" />
+    <!--Contenedor Login-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:paddingTop="10dp">
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:lines="2"
+        android:text="@string/login_desc"
+        android:textColor="@color/colorText" />
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/upshape"
+            android:elevation="4dp"
+            android:ems="10"
+            android:hint="@string/hint_user"
+            android:padding="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+
+        <EditText
+            android:id="@+id/edtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/upshape"
+            android:elevation="4dp"
+            android:ems="10"
+            android:hint="@string/hint_correo"
+            android:padding="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+
+        <EditText
+            android:id="@+id/edtContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/upshape"
+            android:elevation="4dp"
+            android:ems="10"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btnshape"
+            android:elevation="4dp"
+            android:text="@string/btn_reg"
+            android:textColor="@color/colorBtnT" />
+    </LinearLayout>
+
+</RelativeLayout>

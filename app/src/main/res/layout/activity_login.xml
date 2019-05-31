@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
+        <!--Contenedor Login-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,13 +71,14 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="1dp"
                 android:background="@drawable/upshape"
+                android:padding="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
                 android:elevation="4dp"
                 android:ems="10"
                 android:hint="@string/hint_password"
                 android:inputType="textPassword"
-                android:padding="5dp"
-                android:paddingStart="15dp"
-                android:paddingEnd="15dp" />
+                />
 
             <TextView
                 android:id="@+id/txtOlvide"
@@ -121,7 +122,7 @@
             android:contentDescription="@android:string/untitled"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/triangulo" />
-
+        <!--Contenedor google-face-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
