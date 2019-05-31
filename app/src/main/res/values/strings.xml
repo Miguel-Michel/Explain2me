@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Explain2me</string>
+    <string name="bg_desc">Explain2me</string>
+    <string name="login_desc">Resuelve tus dudas de física, química y matemáticas en vivo y al instante.</string>
+    <string name="olv_contra"><i>Olvidé mi contraseña</i></string>
+    <string name="hint_user"><i>Usuario</i></string>
+    <string name="hint_password"><i>Contraseña</i></string>
+    <string name="btn_login"><b>Ingresar</b></string>
+    <string name="register"><i>¿Eres un nuevo usuario? <u>Regístrate</u>.</i></string>
+    <string name="google">Iniciar con Google</string>
+    <string name="facebook">Iniciar con Facebook</string>
 </resources>

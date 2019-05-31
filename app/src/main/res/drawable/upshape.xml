@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Fondo de los campos de texto-->
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <item >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="8dip" />
+            <solid android:color="@color/colorText"/>
+        </shape>
+    </item>
 </selector>
