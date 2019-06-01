@@ -99,6 +99,7 @@
             android:layout_marginTop="30dp"
             android:background="@drawable/btnshape"
             android:elevation="4dp"
+            android:onClick="onClickReg"
             android:text="@string/btn_reg"
             android:textColor="@color/colorBtnT" />
     </LinearLayout>
